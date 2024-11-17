@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- Option 1: Include in HTML -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <link href="index.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- header start -->
+  <header class="" id="header">
+    <nav class="navbar navbar-expand-xl navbar-dark  p-2 m-0 w-100 w-sm-80">
+      <div class="container-fluid">
+        <a class="navbar-brand" id="nav-logo" href="#"><img src="https://zyan.vercel.app/images/logo.png"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" role="button">
+                SERVICES
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#" tabindex="-1">PROJECTS</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                BLOG
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#" tabindex="-1">CONTACT</a>
+            </li>
+          </ul>
+          <form class="d-flex" onclick="event.preventDefault()">
+            <button class=" p-0 m-0" type="submit" id="nav-btn"><svg xmlns="http://www.w3.org/2000/svg" width="40"
+                height="40" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+              </svg></button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- header end -->
+
+
+
+
+
+
+  <!-- banner start -->
+  <section class="contact-banner" id="contact-banner">
+    <div class="banner-header">
+      <img src="https://zyan.vercel.app/images/logo2.png" alt="">
+
+      <button class="banner-btn"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+          class="bi bi-x-lg" viewBox="0 0 16 16">
+          <path
+            d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z" />
+        </svg></button>
+    </div>
+    <div class="banner-section">
+      <div class="banner-content-section">
+        <h2>ABOUT US</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut
+          enim ad minim veniam laboris.
+        </p>
+
+      </div>
+    </div>
+    <div class="banner-contact-form">
+      <form action="">
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Your Email">
+        <textarea placeholder="Your Email"></textarea>
+        <input type="submit" placeholder="Submit Now">
+      </form>
+    </div>
+
+  </section>
+  <!-- banner end -->
+
+
+
+
+
+  <!-- hero start -->
+  <section id="hero">
+
+    <div class="container col-xxl-8 px-4 py-5">
+      <div class="row flex-lg-row-reverse justify-content-between align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-5 ">
+          <div class="img">
+            <img src="https://zyan.vercel.app/images/banner_img_1.png" class="d-block mx-lg-auto "
+              alt="Bootstrap Themes" width="600" height="700" loading="lazy">
+          </div>
+        </div>
+        <div class="col-lg-7">
+          <h1 class="display-5 fw-bold lh-1 mb-4">Hi, I'm ZYAN!</h1>
+          <h1 class="display-5 fw-bold lh-1 mb-4 txt">Creative Designer</h1>
+          <p class="lead">I'm a passionate UI/UX designer with a mission to create delightful and intuitive digital
+            experiences. With a strong foundation in design principles and a keen eye for detail, I specialize in
+            translating complex ideas into user-friendly interfaces that captivate and engage.</p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button type="button" class="btn btn-outline-secondary px-4 me-md-3 mt-3">Download Cv <svg
+                xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                class="bi bi-file-earmark-arrow-down" viewBox="0 0 16 16">
+                <path
+                  d="M8.5 6.5a.5.5 0 0 0-1 0v3.793L6.354 9.146a.5.5 0 1 0-.708.708l2 2a.5.5 0 0 0 .708 0l2-2a.5.5 0 0 0-.708-.708L8.5 10.293z" />
+                <path
+                  d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2M9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z" />
+              </svg></button>
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4 mt-3"><svg
+                xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-play-circle"
+                viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+                <path
+                  d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445" />
+              </svg> Watch The Video</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- hero end -->
+
+
+
+
+
+  <!-- services-start -->
+  <section id="services " class="container">
+
+    <div class="px-4 py-5 my-5 text-center">
+
+      <h5 class="  fs-5 service-heading">My Service</h5>
+      <div class="col-lg-7 mx-auto">
+        <h2 class="lead mt-4 fs-1  fw-bold">Crafting stories through design and innovation</h2>
+
+      </div>
+    </div>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5 py-3">
+
+      <div class="col">
+        <div class="card ">
+          <span>
+            <svg width="80" height="80" viewBox="0 0 99 101" fill="none" xmlns="http://www.w3.org/2000/svg" id="null"
+              class="svg w-100 replaced-svg">
+              <path
+                d="M76.0618 100.003H1.44788C0.675676 100.003 0 99.3278 0 98.5556V23.7487C0 22.9765 0.675676 22.3008 1.44788 22.3008H76.0618C76.834 22.3008 77.5097 22.9765 77.5097 23.7487V98.4591C77.5097 99.3278 76.834 100.003 76.0618 100.003ZM2.89575 97.1077H74.6139V25.1965H2.89575V97.1077Z"
+                fill="#55E6A5"></path>
+              <path
+                d="M97.0071 77.6062H22.3932C21.621 77.6062 20.9453 76.9305 20.9453 76.1583V50.4826C20.9453 49.7104 21.621 49.0347 22.3932 49.0347H41.4086C42.1808 49.0347 42.8565 49.7104 42.8565 50.4826C42.8565 51.2548 42.1808 51.9305 41.4086 51.9305H23.8411V74.7104H95.5592V2.89575H23.8411V23.7452C23.8411 24.5174 23.1654 25.1931 22.3932 25.1931C21.621 25.1931 20.9453 24.5174 20.9453 23.7452V1.44788C20.9453 0.675676 21.621 0 22.3932 0H97.0071C97.7793 0 98.455 0.675676 98.455 1.44788V76.1583C98.455 77.027 97.7793 77.6062 97.0071 77.6062Z"
+                fill="#55E6A5"></path>
+              <path
+                d="M50.3866 54.8279C47.9735 54.8279 46.043 52.8974 46.043 50.4843C46.043 48.0711 47.9735 46.1406 50.3866 46.1406C52.7997 46.1406 54.7302 48.0711 54.7302 50.4843C54.7302 52.8974 52.7997 54.8279 50.3866 54.8279ZM50.3866 49.0364C49.6144 49.0364 48.9387 49.7121 48.9387 50.4843C48.9387 51.2565 49.6144 51.9321 50.3866 51.9321C51.1588 51.9321 51.8345 51.2565 51.8345 50.4843C51.8345 49.7121 51.1588 49.0364 50.3866 49.0364Z"
+                fill="#55E6A5"></path>
+            </svg>
+          </span>
+          <div class="card-body text-center">
+            <h4 class="card-title mb-3">Website Design</h4>
+            <p class="card-text" style="font-size: 16px ; font-weight: 400;  color: rgba(240, 240, 240, 0.74)">
+              Nemo design enim Nemo design ipsam voluptatem quim voluptas sit aspernatur aut odit auting fugit sed
+              thisnquia consequuntur magni dolores eos designer heresm qui</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card  ">
+          <span>
+            <svg width="80" height="80" viewBox="0 0 127 100" fill="none" xmlns="http://www.w3.org/2000/svg" id="null"
+              class="svg w-100 replaced-svg">
+              <path
+                d="M63.7291 99.9969C63.2929 99.9969 62.8568 99.7789 62.5296 99.4517L0.484306 33.699C-0.0609081 33.1537 -0.0609081 32.3904 0.26622 31.7362L16.2955 3.82122C16.6226 3.27601 17.1679 2.94888 17.7131 2.94888H26.2184C27.0907 2.94888 27.854 3.71218 27.854 4.58452C27.854 5.45686 27.0907 6.22016 26.2184 6.22016H18.6945L3.75559 32.2814L63.7291 95.9624L123.266 32.2814L106.583 6.11113H42.6839C41.8115 6.11113 41.0482 5.34783 41.0482 4.47549C41.0482 3.60314 41.8115 2.83984 42.6839 2.83984H107.346C107.891 2.83984 108.437 3.16697 108.764 3.60314L126.647 31.5181C127.083 32.1724 126.974 32.9356 126.429 33.4809L64.9286 99.3427C64.6015 99.8879 64.1653 99.9969 63.7291 99.9969Z"
+                fill="#55E6A5"></path>
+              <path
+                d="M1.68373 34.2451C0.920431 34.2451 0.266175 33.6999 0.0480891 32.9366C-0.169996 32.0642 0.375217 31.1919 1.24756 30.9738L75.5057 14.2903C76.378 14.0722 77.2504 14.6174 77.4685 15.4897C77.6865 16.3621 77.1413 17.2344 76.269 17.4525L2.01086 34.1361C1.90182 34.1361 1.79277 34.2451 1.68373 34.2451Z"
+                fill="#55E6A5"></path>
+              <path
+                d="M125.227 34.2405C125.009 34.2405 124.9 34.2405 124.682 34.1314L42.1369 6.21648C41.2645 5.88936 40.8284 5.01702 41.1555 4.14468C41.4826 3.27234 42.355 2.83617 43.2273 3.1633L125.773 31.0782C126.645 31.4054 127.081 32.2777 126.754 33.1501C126.645 33.8043 125.991 34.2405 125.227 34.2405Z"
+                fill="#55E6A5"></path>
+              <path
+                d="M34.3962 9.1596C31.8882 9.1596 29.8164 7.08778 29.8164 4.57979C29.8164 2.07181 31.8882 0 34.3962 0C36.9042 0 38.976 2.07181 38.976 4.57979C38.976 7.08778 36.9042 9.1596 34.3962 9.1596ZM34.3962 3.27128C33.6329 3.27128 33.0877 3.81649 33.0877 4.57979C33.0877 5.34309 33.6329 5.88832 34.3962 5.88832C35.1595 5.88832 35.7047 5.34309 35.7047 4.57979C35.7047 3.92554 35.1595 3.27128 34.3962 3.27128Z"
+                fill="#55E6A5"></path>
+            </svg>
+          </span>
+          <div class="card-body text-center">
+            <h4 class="card-title mb-3">Logo Design</h4>
+            <p class="card-text"> Nemo design Nemo design enim ipsam voluptatem quim voluptas sit aspernatur aut odit
+              auting fugit sed thisnquia consequuntur magni dolores eos designer heresm qui</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card ">
+          <span><svg width="80" height="80" viewBox="0 0 117 100" fill="none" xmlns="http://www.w3.org/2000/svg"
+              id="null" class="svg w-100 replaced-svg">
+              <path
+                d="M74.2104 51.7634C73.8691 51.7634 73.414 51.6496 73.0727 51.4221C72.3902 50.8533 72.2764 49.7156 72.8452 49.033L110.502 3.52674H5.38219L43.0386 49.033C43.6074 49.7156 43.4937 50.8533 42.8111 51.4221C42.1285 51.9909 40.9908 51.8771 40.422 51.1945L0.490267 2.84414C0.0352047 2.38908 0.0352049 1.59271 0.262736 1.02388C0.490268 0.455056 1.17286 0 1.85546 0H114.37C115.052 0 115.621 0.34129 115.962 1.02388C116.19 1.59271 116.19 2.27531 115.735 2.84414L75.6894 51.0808C75.2343 51.5358 74.7792 51.7634 74.2104 51.7634Z"
+                fill="#55E6A5"></path>
+              <path
+                d="M58.0566 71.3299C57.6016 71.3299 57.0327 71.1024 56.6914 70.7611L44.5185 56.0853C43.9497 55.4027 44.0634 54.2651 44.746 53.6962C45.4286 53.1274 46.5663 53.2412 47.1351 53.9238L57.9428 67.0068L68.5231 54.2651C69.0919 53.5825 70.2295 53.4687 70.9121 54.0375C71.5947 54.6064 71.7085 55.744 71.1397 56.4266L59.308 70.7611C58.9667 71.1024 58.5117 71.3299 58.0566 71.3299Z"
+                fill="#55E6A5"></path>
+              <path
+                d="M114.256 99.9957H1.74217C1.05958 99.9957 0.490752 99.6544 0.149455 98.9719C-0.0780763 98.403 -0.0780765 97.7204 0.376986 97.1516L56.691 29.3473C57.3736 28.5509 58.625 28.5509 59.3076 29.3473L115.508 97.2654C115.963 97.7204 115.963 98.5168 115.735 99.0856C115.508 99.6544 114.939 99.9957 114.256 99.9957ZM5.38267 96.5827H110.616L58.0562 33.1015L5.38267 96.5827Z"
+                fill="#55E6A5"></path>
+              <path
+                d="M58.0561 26.7355C57.146 26.7355 56.3496 25.9392 56.3496 25.0291V19.9096C56.3496 18.9995 57.146 18.2031 58.0561 18.2031C58.9662 18.2031 59.7626 18.9995 59.7626 19.9096V25.0291C59.7626 25.9392 58.9662 26.7355 58.0561 26.7355Z"
+                fill="#55E6A5"></path>
+              <path
+                d="M58.054 84.4156C55.3237 84.4156 53.1621 82.2541 53.1621 79.6375C53.1621 77.0209 55.3237 74.8594 58.054 74.8594C60.7844 74.8594 62.946 77.0209 62.946 79.6375C62.946 82.3679 60.7844 84.4156 58.054 84.4156ZM58.054 78.3861C57.2577 78.3861 56.5751 78.9549 56.5751 79.7513C56.5751 80.5476 57.2577 81.1165 58.054 81.1165C58.8504 81.1165 59.533 80.5476 59.533 79.7513C59.533 78.9549 58.8504 78.3861 58.054 78.3861Z"
+                fill="#55E6A5"></path>
+            </svg></span>
+          <div class="card-body text-center">
+            <h4 class="card-title mb-3">Apps Development</h4>
+            <p class="card-text " style="font-size: 16px ; font-weight: 400; color: rgba(240, 240, 240, 0.74);"> Nemo
+              design Nemo design enim ipsam voluptatem quim voluptas sit aspernatur aut odit auting fugit sed thisnquia
+              consequuntur magni dolores eos designer heresm qui</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- services-end -->
+
+  <!-- about start -->
+  <section id="about">
+    <div class="container">
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-md-12 col-lg-6">
+            <div class="img">
+              <img src="https://zyan.vercel.app/images/about_img.jpg" class=" img-fluid w-100" width="400" height="400">
+              <div class="tf__about_img_text">
+                <div class="ico">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                    class="bi bi-pie-chart-fill" viewBox="0 0 16 16">
+                    <path
+                      d="M15.985 8.5H8.207l-5.5 5.5a8 8 0 0 0 13.277-5.5zM2 13.292A8 8 0 0 1 7.5.015v7.778zM8.5.015V7.5h7.485A8 8 0 0 0 8.5.015" />
+                  </svg>
+                </div>
+                <div class="tf__about_content">
+                  <h4>Daily Activity</h4>
+                  <p>Lorem is ispam</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 about-content">
+            <span>About Me</span>
+            <h1 class="display-5 fw-bold lh-3 mt-3 mb-3">Transforming visions into
+              exceptional portfolios</h1>
+            <p class="lead fw-light">
+              <hr id="line" />
+            <p class="d-inline " style=" font-weight: 400;color: rgb(175, 174, 174);">Nemo design enim ipsam voluptatem
+              quim voluptas sit aspernatur aut odit auting fugit sed thisnquia consequuntur magni dolores eos designer
+              heresm qui ratione</p>
+            </p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button type="button" class="btn btn-primary  btn-lg px-4 me-md-3">Download Cv <svg
+                  xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                  class="bi bi-file-earmark-arrow-down" viewBox="0 0 16 16">
+                  <path
+                    d="M8.5 6.5a.5.5 0 0 0-1 0v3.793L6.354 9.146a.5.5 0 1 0-.708.708l2 2a.5.5 0 0 0 .708 0l2-2a.5.5 0 0 0-.708-.708L8.5 10.293z" />
+                  <path
+                    d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2M9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z" />
+                </svg></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- about end-->
+  <!-- contact  start-->
+  <section id="contact">
+    <div class="container">
+      <div class="container-fluid col-xl-12 col-xxl-12 px-4 py-5">
+        <div class="row align-items-center g-lg-5 py-5 gy-5">
+          <div class="col-lg-6  text-lg-start">
+            <div class="d-inline">
+              <h2 class="d-inline display-2 fw-bold mb-5 ">Design </h2>
+              <h1 class="d-inline fw-bold lh-1 mb-5 display-5"> and Innovation</h1>
+
+            </div>
+            <p class="col-lg-10  mt-3 lh-4 fw-light">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
+              auting fugit sed thisnquia consequuntur magni dolores eos designer heresm qui ratione voluptatem sequi
+              nesciuNeque porro quisquam est, oursqui dolorem ipsum quia dolor sit amet consectetur, adipisci velit, sed
+              quia non numquam
+            </p>
+
+            <div class="reviews">
+              <div class="row ">
+
+                <div class="col-12  col-xl-6 col-md-6 col-sm-6">
+                  <div class="tf__design_counter fade_left" data-trigerid="counter"
+                    style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">
+                    <span class="icon">
+                      <svg width="75" height="60" viewBox="0 0 75 60" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        id="null" class="svg img-fluid w-100 replaced-svg">
+                        <g clip-path="url(#clip0_2773_413)">
+                          <path
+                            d="M29.6018 60.0002C29.3531 60.0002 29.1043 59.8743 28.9178 59.7484L0.248601 30.6613C-0.124534 30.2835 -0.124534 29.7169 0.248601 29.3392L28.9799 0.252066C29.3531 -0.125689 29.9128 -0.125689 30.2859 0.252066L58.9551 29.2762C59.3282 29.654 59.3282 30.2206 58.9551 30.5983L30.2859 59.6854C30.0993 59.8743 29.8506 60.0002 29.6018 60.0002ZM2.23865 29.9687L29.6018 57.6707L56.965 29.9687L29.6018 2.26676L2.23865 29.9687Z"
+                            fill="#55E6A5"></path>
+                          <path
+                            d="M51.8646 53.4512C51.6159 53.4512 51.3671 53.3252 51.1806 53.1993L43.7179 45.6442C43.3447 45.2665 43.3447 44.6998 43.7179 44.3221C44.091 43.9443 44.6507 43.9443 45.0238 44.3221L51.8025 51.1846L72.7602 29.9674L51.8646 8.81317L30.285 30.66C29.9119 31.0377 29.3522 31.0377 28.9791 30.66C28.6059 30.2822 28.6059 29.7156 28.9791 29.3378L51.1806 6.86144C51.5537 6.48369 52.1134 6.48369 52.4865 6.86144L74.688 29.3378C75.0612 29.7156 75.0612 30.2822 74.688 30.66L52.4865 53.1364C52.3 53.3252 52.1134 53.4512 51.8646 53.4512Z"
+                            fill="#55E6A5"></path>
+                          <path
+                            d="M26.1812 35.9499C24.8753 35.9499 23.7559 34.8796 23.7559 33.4945C23.7559 32.1723 24.8131 31.0391 26.1812 31.0391C27.4872 31.0391 28.6066 32.1094 28.6066 33.4945C28.6066 34.8166 27.4872 35.9499 26.1812 35.9499ZM26.1812 32.9278C25.8703 32.9278 25.6215 33.1797 25.6215 33.4945C25.6215 33.8093 25.8703 34.0611 26.1812 34.0611C26.4922 34.0611 26.7409 33.8093 26.7409 33.4945C26.7409 33.1797 26.4922 32.9278 26.1812 32.9278Z"
+                            fill="#55E6A5"></path>
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_2773_413">
+                            <rect width="75" height="60" fill="white"></rect>
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </span>
+                    <h3><span class="counter">10</span>k+</h3>
+                    <p>Complete project</p>
+                  </div>
+                </div>
+                <div class="col-12  col-xl-6 col-md-6 col-sm-6">
+                  <div class="tf__design_counter fade_left" data-trigerid="counter"
+                    style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">
+                    <span class="icon">
+                      <svg width="75" height="60" viewBox="0 0 75 60" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        id="null" class="img-fluid w-100 svg replaced-svg">
+                        <g clip-path="url(#clip0_2773_398)">
+                          <path
+                            d="M70.8102 60.0031H4.19006C3.6314 60.0031 3.14258 59.3089 3.14258 58.5155C3.14258 57.7221 3.6314 57.0279 4.19006 57.0279H69.8325L72.6956 4.46591L51.6761 21.8213C51.1873 22.218 50.5588 22.0196 50.2794 21.3254C50.0001 20.6312 50.1398 19.7386 50.6286 19.3419L73.394 0.59814C73.7431 0.30062 74.1621 0.30062 74.5113 0.59814C74.8605 0.895661 75.0001 1.39153 75.0001 1.98657L71.8577 58.7138C71.7878 59.4081 71.3688 60.0031 70.8102 60.0031Z"
+                            fill="#55E6A5"></path>
+                          <path
+                            d="M70.8101 60.0085H4.18994C3.63128 60.0085 3.21229 59.4135 3.14246 58.6201L0 1.89282C0 1.29778 0.139665 0.801911 0.488827 0.50439C0.837989 0.20687 1.25698 0.20687 1.60615 0.50439L45.1117 36.306C45.6006 36.7027 45.8101 37.5953 45.4609 38.2895C45.1816 38.9837 44.5531 39.2812 44.0642 38.7854L2.23464 4.47133L5.09777 57.0333H70.7402C71.2989 57.0333 71.7877 57.7275 71.7877 58.5209C71.8575 59.3143 71.3687 60.0085 70.8101 60.0085Z"
+                            fill="#55E6A5"></path>
+                          <path
+                            d="M50.9078 22.0192C50.6285 22.0192 50.3492 21.9201 50.1397 21.6225L37.5 3.57296L24.7905 21.6225C24.3715 22.2176 23.743 22.2176 23.324 21.6225C22.905 21.0275 22.905 20.1349 23.324 19.5399L36.7318 0.399406C37.1508 -0.195635 37.7793 -0.195635 38.1983 0.399406L51.6061 19.4407C52.0251 20.0358 52.0251 20.9283 51.6061 21.5234C51.3966 21.8209 51.1871 22.0192 50.9078 22.0192Z"
+                            fill="#55E6A5"></path>
+                          <path
+                            d="M51.1865 48.7997C49.0915 48.7997 47.3457 46.3204 47.3457 43.3452C47.3457 40.37 49.0915 37.8906 51.1865 37.8906C53.2815 37.8906 55.0273 40.37 55.0273 43.3452C55.0273 46.3204 53.2815 48.7997 51.1865 48.7997ZM51.1865 40.8658C50.2088 40.8658 49.4407 41.9567 49.4407 43.3452C49.4407 44.7336 50.2088 45.8245 51.1865 45.8245C52.1641 45.8245 52.9323 44.7336 52.9323 43.3452C52.9323 41.9567 52.1641 40.8658 51.1865 40.8658Z"
+                            fill="#55E6A5"></path>
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_2773_398">
+                            <rect width="75" height="60" fill="white"></rect>
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </span>
+                    <h3><span class="counter">800</span>+</h3>
+                    <p>Client review</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-10 mx-auto col-lg-6 mv">
+            <form class="p-4 p-md-5   bg-light">
+              <div class="form-floating mb-3"></div>
+              <h1 class="fs-4">GET TOUCH ME?
+              </h1>
+
+              <div class="form-floating mb-4">
+                <span class="fw-light">For your car we will do everything advice design in us repairs and maintenance We
+                  are the some preferr</span>
+              </div>
+              <div class="form-floating mb-4">
+                <input type="name" class="form-control" placeholder="Full Name">
+              </div>
+              <div class="form-floating mb-4">
+                <input type="email" class="form-control" placeholder="name@example.com">
+              </div>
+              <div class="form-floating mb-4">
+                <input type="tel" class="form-control" placeholder="+01398948244">
+              </div>
+              <div class="form-floating mb-4">
+                <textarea class="w-100" name="" placeholder="message" id=""></textarea>
+              </div>
+              <button class="w-30 btn btn-lg " type="submit">Submit Now</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- contact  end-->
+  <!-- skill sec start -->
+
+  <section id="skill">
+    <div class="py-5 text-center container">
+      <div class="row py-lg-5">
+        <div class="col-lg-6 col-md-8 mx-auto">
+          <h3 class="fw-light skill-heading">Education & Skill</h3>
+          <p class="lead text-body-secondary fs-1 fw-bold">Showcasing your talent
+            amplifying your impact</p>
+
+
+
+
+
+        </div>
+      </div>
+    </div>
+    <div class="album py-5 bg-body-tertiary">
+      <div class="container">
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-2">
+          <div class="col">
+            <div class="card shadow-sm">
+              <div class="card-body ">
+                <div class="card-badge">
+
+                  <div>2014-2018</div>
+                </div>
+                <h2>Wordpress and End Developer</h2>
+                <p class="card-text">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed
+                  thisnquia consequuntur magni dolores eos qui ratione voluptatem</p>
+
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <div class="card-body ">
+                <div class="card-badge">
+
+                  <div>2012 - 2014</div>
+
+                </div>
+
+                <h2 class="">Python Developer</h2>
+
+                <p class="card-text">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed
+                  thisnquia consequuntur magni dolores eos qui ratione voluptatem</p>
+
+
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <div class="card-body ">
+                <div class="card-badge">
+                  <div>2005 - 2009</div>
+                </div>
+                <h2>Kent State University</h2>
+                <p class="card-text">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed
+                  thisnquia consequuntur magni dolores eos qui ratione voluptatem</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm ">
+              <div class="card-body ">
+                <div class="card-badge">
+                  <div>2009 - 2012</div>
+                </div>
+                <h2 class="">User Experience Design</h2>
+                <p class="card-text">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed
+                  thisnquia consequuntur magni dolores eos qui ratione voluptatem</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm bg">
+              <div class="card-body">
+                <div class="skill-heading">HTML</div>
+                <div class="skills"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm bg">
+              <div class="card-body">
+                <div class="skill-heading">PYTHON</div>
+                <div class="skills"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm bg">
+              <div class="card-body">
+                <div class="skill-heading">CSS</div>
+                <div class="skills"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm bg">
+              <div class="card-body">
+                <div class="skill-heading">Javascript</div>
+                <div class="skills"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm bg">
+              <div class="card-body">
+                <div class="skill-heading">Photoshop</div>
+                <div class="skills"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm bg">
+              <div class="card-body">
+                <div class="skill-heading">Figma</div>
+                <div class="skills"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- skill sec end -->
+  <section id="portfolio">
+    <!-- portfolio -->
+    <div class="container">
+      <div class="row py-lg-5 mb-3">
+        <div class="col-lg-12 col-md-12 mx-auto">
+          <h3 class="fw-light p-h">my recent Portfolio</h3>
+          <p class="lead text-body-secondary  col-lg-8 fs-1  fw-bold">Elevate your brand to new
+            heights with our portfolio expertise</p>
+
+
+
+
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-md-12 mb-4 mb-lg-0 ">
+          <div>
+            <img src="https://zyan.vercel.app/images/portfolio/1.jpg" class="w-100 shadow-1-strong rounded mb-4"
+              alt="Boat on Calm Water" />
+            <div class="inner-box">
+              <h2>Sheet Metal Bending</h2>
+              <div class="box">
+
+                <span>Youtube</span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <img src="https://zyan.vercel.app/images/portfolio/2.jpg" class="w-100 shadow-1-strong rounded mb-4"
+              alt="Wintry Mountain Landscape" />
+            <div class="inner-box">
+              <h2>Sheet Metal Bending</h2>
+              <div class="box">
+
+                <span>Vimeo</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 mb-4 mb-lg-0">
+          <div> <img src="https://zyan.vercel.app/images/portfolio/3.jpg" class="w-100 shadow-1-strong rounded mb-4"
+              alt="Mountains in the Clouds" />
+            <div class="inner-box">
+              <h2>Sheet Metal Bending</h2>
+              <div class="box">
+
+                <span>Sound Cloud</span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <img src="https://zyan.vercel.app/images/portfolio/4.jpg" class="w-100 shadow-1-strong rounded mb-4"
+              alt="Boat on Calm Water" />
+            <div class="inner-box">
+              <h2>Sheet Metal Bending</h2>
+              <div class="box">
+
+                <span>Image</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+      </div>
+    </div>
+
+  </section>
+  <!-- portfolio end -->
+  <!-- Testimonal start -->
+  <section id="testimonal">
+    <div class="container testimonal-heading">
+      <div class="px-4 py-2 my-5 text-center">
+        <h4 class=" fw-light">clients review</h4>
+        <div class="col-lg-6 mx-auto">
+          <h1 class="fw-bold">My testomonial</h1>
+        </div>
+      </div>
+
+      <div class="testimonal-cards">
+        <div class="row row-cols-1 row-cols-md-2  g-4 py-5">
+
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://zyan.vercel.app/images/testimonial/1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Shawn Michael</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                  content.</p>
+                <div class="card-rating">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                    class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://zyan.vercel.app/images/testimonial/1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Shawn Michael</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+                <div class="card-rating">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                    class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- Testimonal end -->
+
+  <!-- Marquee start -->
+  <section id="marquee">
+    <div class="container-fluid">
+      <div class="inner">
+        <div class="marquee">
+          <div class="row">
+            <ul>
+              <li>*PHOTOSHOP</li>
+              <li>*FIGMA</li>
+              <li>*PHP</li>
+
+
+              <li>*Development</li>
+              <li>*FIGMA</li>
+              <li>*PHP</li>
+
+              <li>*world</li>
+              <li>*CSS</li>
+              <li>*JAVASCRIPT</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Marquee end -->
+
+  <!-- blog=start -->
+  <section id="blog">
+    <!-- blog heading -->
+    <div class="container">
+      <div class="row py-lg-5 mb-3">
+        <div class="col-lg-8 col-md-8 col-sm-12 mx-auto">
+          <h3 class="fw-light">My blog</h3>
+          <p class="lead text-body-secondary  col-lg-9 fs-2  fw-bold">Unlocking the potential of your personal
+            brand</p>
+
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 blog-btn">
+
+          <button class="btn-start">More Blog +</button>
+        </div>
+      </div>
+      <!-- blog heading -->
+      <!-- blog -->
+
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://zyan.vercel.app/images/blog/1.jpg" class="card-img-top img-fluid" alt="...">
+            <div class="card-body">
+              <div class="card-badge">
+                31 December 2024
+              </div>
+              <p class="card-text mt-3"><i class="bi bi-person-circle"></i> By admin</p>
+              <p class="card-text mt-0"><i class="bi bi-chat"></i> Comments (05)</p>
+
+              <h5 class="card-title">The standard personal My portfolio</h5>
+            </div>
+
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://zyan.vercel.app/images/blog/2.jpg" class="card-img-top img-fluid" alt="...">
+            <div class="card-body">
+              <div class="card-badge">
+                31 December 2024
+              </div>
+
+              <p class="card-text mt-3"><i class="bi bi-person-circle"></i> By admin</p>
+              <p class="card-text mt-3"><i class="bi bi-chat"></i> Comments (05)</p>
+
+              <h5 class="card-title">The standard personal My portfolio</h5>
+            </div>
+
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 w-100">
+            <img src="https://zyan.vercel.app/images/blog/3.jpg" class="card-img-top img-fluid" alt="...">
+            <div class="card-body">
+              <div class="card-badge">
+                31 December 2024
+              </div>
+              <p class="card-text mt-3"><i class="bi bi-person-circle"></i> By admin</p>
+              <p class="card-text mt-3"><i class="bi bi-chat"></i> Comments (05)</p>
+
+              <h5 class="card-title">The standard personal My portfolio</h5>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- blog end -->
+  </section>
+  <!-- blog=end -->
+  <section id="new_sletter">
+    <div class="new_s">
+      <div class="container">
+        <div class="newselter">
+
+          <div class="heading">
+            <h2 class="text-center fs-4 fw-bold mb-5">Subscribe To My Newsletter</h2>
+          </div>
+
+          <div class="input-group mb-1">
+            <input type="text" id="input" class=" " placeholder="Email">
+            <button class="input-group-text" id="basic-addon2">Notify Now</button>
+          </div>
+
+
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container" id="footer">
+    <footer class="py-5">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-4 mb-4">
+          <div class="footer-cont">
+            <div class="img">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-geo-alt"
+                viewBox="0 0 16 16">
+                <path
+                  d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10" />
+                <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+              </svg>
+            </div>
+            <div class="cont">
+              <h2 class="mb-4">Address</h2>
+              <span>
+                2118 Thornridge Cir. Syracuse, Connecticut 35624
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 mb-4">
+          <div class="footer-cont">
+            <div class="img">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                class="bi bi-telephone-outbound-fill" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877zM11 .5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V1.707l-4.146 4.147a.5.5 0 0 1-.708-.708L14.293 1H11.5a.5.5 0 0 1-.5-.5" />
+              </svg>
+            </div>
+            <div class="cont">
+              <h2 class="mb-4">Lets talk us</h2>
+              <a href="#">
+                + (603) 555-0123
+              </a>
+
+              <a href="#">
+                + (603) 555-0123
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 mb-4">
+          <div class="footer-cont">
+            <div class="img">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                <path
+                  d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
+              </svg>
+            </div>
+            <div class="cont">
+              <h2 class="mb-4">Send us email</h2>
+              <a href="#">
+                deanna.curtis@example.com
+              </a>
+
+              <a href="#">
+                curtis@example.com
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-flex flex-column flex-sm-row justify-content-between   border-top py-3">
+        <p class="caption">© 2024 Company, Inc. All rights reserved.</p>
+        <ul class="list-unstyled d-flex">
+          <li class="ms-3"><a class="link-body-emphasis" href="#">Terms & Conditions</a></li>
+          <li class="ms-3"><a class="link-body-emphasis" href="#"> Privacy Policy</a></li>
+          <li class="ms-3"><a class="link-body-emphasis" href="#"> Sitemap</a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+
+  <div id="scroll-top">
+    <div>
+      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-arrow-up-circle"
+        viewBox="0 0 16 16">
+        <path fill-rule="evenodd"
+          d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707z" />
+      </svg>
+    </div>
+  </div>
+  <script src="index.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+</hhalf
